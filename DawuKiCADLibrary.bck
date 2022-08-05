@@ -1,0 +1,135 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BYV26C
+D 600V 1A Ultra-Fast Avalanche Sinterglass Diode, DO-15
+K diode
+F http://pdf.datasheetcatalog.com/datasheet/philips/BYV79-100.pdf
+$ENDCMP
+#
+$CMP BYV79-150
+D 150V 14A Ultrafast Rectifier Diode, TO-220
+K diode
+F http://pdf.datasheetcatalog.com/datasheet/philips/BYV79-100.pdf
+$ENDCMP
+#
+$CMP BYV79-150_copy
+D 150V 14A Ultrafast Rectifier Diode, TO-220
+K diode
+F http://pdf.datasheetcatalog.com/datasheet/philips/BYV79-100.pdf
+$ENDCMP
+#
+$CMP BYV79-200
+D 200V 14A Ultrafast Rectifier Diode, TO-220
+K diode
+F http://pdf.datasheetcatalog.com/datasheet/philips/BYV79-100.pdf
+$ENDCMP
+#
+$CMP BYV79-200_copy
+D 200V 14A Ultrafast Rectifier Diode, TO-220
+K diode
+F http://pdf.datasheetcatalog.com/datasheet/philips/BYV79-100.pdf
+$ENDCMP
+#
+$CMP IKW50N60H3FKSA1
+D IGBT, Trench and Fieldstop, N-канал, 600В, 50А, IKW50N60H3FKSA1 (K50H603)
+K N-Channel IGBT Power Transistor, IKW50N60H3FKSA1 (K50H603)
+F https://static.chipdip.ru/lib/021/DOC001021150.pdf
+$ENDCMP
+#
+$CMP IR2125S
+D High-side 500V, Io=1A/2A, Vo=12-18V, Vcs=230mV, ton/off=150ns
+K CURRENT LIMITING SINGLE CHANNEL DRIVER
+F http://irf.ru/pdf/ir2125.pdf
+$ENDCMP
+#
+$CMP IRFS4115
+D 99A Id, 150V Vds, 10.3mOhm Rds, N-Channel HEXFET Power MOSFET, D2PAK
+K N-Channel HEXFET MOSFET
+F https://www.infineon.com/dgdl/irfs4115pbf.pdf?fileId=5546d462533600a401535636e5d2218f
+$ENDCMP
+#
+$CMP IRFS4127
+D 72A Id, 200V Vds, 18.6mOhm Rds, N-Channel MOSFET, 18.6mOhm Ron, D2PAK
+K N-Channel MOSFET
+F https://www.infineon.com/dgdl/irfs4127pbf.pdf?fileId=5546d462533600a401535636ee7b2192
+$ENDCMP
+#
+$CMP IRFS4227
+D 130A Id, 200V Vds, 22mOhm Rds, N-Channel MOSFET, D2PAK
+K N-Channel MOSFET
+F https://www.infineon.com/dgdl/irfs4227pbf.pdf?fileId=5546d462533600a401535639ef64219b
+$ENDCMP
+#
+$CMP IRFS4229
+D 91A Id, 250V Vds, 42mOhm Rds, N-Channel MOSFET, D2PAK
+K N-Channel MOSFET
+F https://www.infineon.com/dgdl/irfs4229pbf.pdf?fileId=5546d462533600a401535639fdc421a1
+$ENDCMP
+#
+$CMP IRFS4310Z
+D 120A Id, 100V Vds, 4.8mOhm Rds, N-Channel HEXFET Power MOSFET, D2PAK
+K N-Channel MOSFET
+F https://www.infineon.com/dgdl/irfb4310zpbf.pdf?fileId=5546d462533600a4015356161b4d1e2d
+$ENDCMP
+#
+$CMP IRFS4321
+D 85A Id, 150V Vds, 12mOhm Rds, N-Channel HEXFET Power MOSFET, D2PAK
+K N-Channel MOSFET HEXFET
+F https://www.infineon.com/dgdl/irfs4321pbf.pdf?fileId=5546d462533600a40153563a20dd21ad
+$ENDCMP
+#
+$CMP L6562
+D Transition-Mode PFC Controller, DIP-8/SOIC-8
+K SMPS pfc controller
+F http://www.st.com/resource/en/datasheet/l6562.pdf
+$ENDCMP
+#
+$CMP L6562A
+D Transition-Mode PFC Controller, DIP-8/SOIC-8
+K SMPS pfc controller
+F http://www.st.com/resource/en/datasheet/l6562a.pdf
+$ENDCMP
+#
+$CMP L6562AT
+D Transition-Mode PFC Controller, DIP-8/SOIC-8
+K SMPS pfc controller
+F http://www.st.com/resource/en/datasheet/l6562at.pdf
+$ENDCMP
+#
+$CMP L6562D
+D Transition Mode Power Factor Corrector, DIP-8/SOIC-8
+K SMPS pfc controller
+F http://www.st.com/resource/en/datasheet/l6561.pdf
+$ENDCMP
+#
+$CMP L_Core_Ferrite_E133
+D Inductor with ferrite core
+K inductor choke coil reactor magnetic
+F ~
+$ENDCMP
+#
+$CMP STB33N65M2
+D 24A Id, 650V Vds, N-Channel MDmesh M2 MOSFET, 140mOhm Ron, D2PAK
+K N-Channel MOSFET
+F https://www.st.com/resource/en/datasheet/stb33n65m2.pdf
+$ENDCMP
+#
+$CMP STB40N60M2
+D 34A Id, 600V Vds, N-Channel MDmesh M2 MOSFET, 78mOhm Ron, D2PAK
+K N-Channel MOSFET
+F https://www.st.com/resource/en/datasheet/stp40n60m2.pdf
+$ENDCMP
+#
+$CMP STTH8R06D
+D 600V 8A Turbo 2 ultrafast high voltage rectifier, TO-220AC
+K diode
+F http://pdf.datasheetcatalog.com/datasheet/philips/BYV79-100.pdf
+$ENDCMP
+#
+$CMP TK10A60D
+D 10A Id, 600V Vds, N-Channel MOSFET, 580mOhm Ron, TO-220F
+K N-Channel MOSFET
+F https://toshiba.semicon-storage.com/info/docget.jsp?did=11580&prodName=TK10A60D
+$ENDCMP
+#
+#End Doc Library
