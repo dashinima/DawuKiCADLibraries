@@ -22,6 +22,6 @@
   (pad "5" thru_hole oval (at 6.35 0) (size 1.8 2.54) (drill 0.6) (layers *.Cu *.Mask "F.Paste") (tstamp a9a034b8-0a89-4f9d-9a59-3a601ec4dffd))
   (pad "6" thru_hole oval (at 7.62 3.28) (size 1.8 2.54) (drill 0.6) (layers *.Cu *.Mask) (tstamp 83ae92d6-f47a-4799-8917-e1f9b5f13714))
   (pad "7" thru_hole oval (at 8.89 0) (size 1.8 2.54) (drill 0.6) (layers *.Cu *.Mask) (tstamp 6202e877-7843-4db2-84c9-88d4ceaa5ea3))
-  (pad "8" thru_hole oval (at 12.7 3.28) (size 1.8 2.54) (drill 0.6) (layers *.Cu *.Mask) (tstamp 2020a9f8-77f9-468c-b737-a2ff43d396cf))
-  (pad "9" thru_hole oval (at 15.24 0) (size 1.8 2.54) (drill 0.6) (layers *.Cu *.Mask) (tstamp b10bc669-b9fe-47cf-8b67-03e88c148b42))
+  (pad "9" thru_hole oval (at 12.7 3.28) (size 1.8 2.54) (drill 0.6) (layers *.Cu *.Mask) (tstamp 2020a9f8-77f9-468c-b737-a2ff43d396cf))
+  (pad "10" thru_hole oval (at 15.24 0) (size 1.8 2.54) (drill 0.6) (layers *.Cu *.Mask) (tstamp b10bc669-b9fe-47cf-8b67-03e88c148b42))
 )

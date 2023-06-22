@@ -1334,10 +1334,10 @@
     (property "Value" "FSFR2100" (id 1) (at -3.81 -20.32 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "DawuKiCADLibraries:SIP9_26x10.5_P1.27" (id 2) (at 0.635 0 0)
-      (effects (font (size 1.27 1.27)))
+    (property "Footprint" "DawuKiCADLibraries:SIP9_26x10.5_P1.27" (id 2) (at 11.43 -25.4 0)
+      (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://www.onsemi.com/pdf/datasheet/fsfr2100-d.pdf" (id 3) (at 0.635 0 0)
+    (property "Datasheet" "https://www.onsemi.com/pdf/datasheet/fsfr2100-d.pdf" (id 3) (at 19.05 -22.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "FSFR2100_0_0"
