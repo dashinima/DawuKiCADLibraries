@@ -1,0 +1,188 @@
+(footprint "LiIon_401730_250mAh"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -3.81 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "7a9f7d42-6e6a-4a35-96d6-96cb0202201c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "LiIon_401730_250mAh"
+		(at 19.05 8.89 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "6fc21f05-187b-4c9c-8f67-8a6447deb533")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at -15.24 -10.12 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9142e698-21c8-4390-a8a9-35c412e882b4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -15.24 -10.12 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fff7e641-8cd1-48af-aee6-1b3bac64f1e9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at -15.24 -10.12 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "025fbf44-2163-4f97-89e9-0bf41690849b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.54 -2.54)
+		(end -2.54 15.24)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4fe02090-cb8e-4c4a-96d0-7a2af0df87aa")
+	)
+	(fp_line
+		(start -2.54 15.24)
+		(end 36.83 15.24)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "77e1a1a3-c917-434a-8664-742e1945e954")
+	)
+	(fp_line
+		(start 36.83 -2.54)
+		(end -2.54 -2.54)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e97b4087-0493-41c4-b494-1437ee48b0ff")
+	)
+	(fp_line
+		(start 36.83 15.24)
+		(end 36.83 -2.54)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "22a25b17-a598-4d89-a08c-73d6aed821be")
+	)
+	(fp_rect
+		(start 2.54 -1.27)
+		(end 35.56 13.97)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "e3f35cfa-36e6-416e-9e4e-48e7ccf68558")
+	)
+	(fp_text user "+"
+		(at 0 -1.27 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "3baa32cd-8ec4-4de3-ab98-2e0638c516e9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "-"
+		(at 0 11.43 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "622913e0-0541-47be-bd53-c06c59b84653")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "Li-ION Battery"
+		(at 12.7 6.35 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "f21fac43-e206-4507-8f7f-231a0d11c0d0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 6.35 16.51 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "4d5e3ab4-843f-4cfa-8b3a-ef2cec91f376")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 3 3)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7d660f43-ab1a-4153-89d0-d515ea8dbfc4")
+	)
+	(pad "2" thru_hole rect
+		(at 0 12.7)
+		(size 3 3)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0cf8002c-825a-4bd3-9e06-066f38cb56af")
+	)
+)
