@@ -4015,7 +4015,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "D"
-			(at -1.016 1.016 0)
+			(at 3.556 11.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4089,7 +4089,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -11799,7 +11799,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5_HandSoldering"
 			(at 0 0 0)
 			(effects
 				(font
