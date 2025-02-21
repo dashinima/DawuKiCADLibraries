@@ -18994,23 +18994,23 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "L"
-			(at -2.032 3.048 0)
+			(at 4.318 2.032 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" ""
-			(at -2.032 3.048 0)
+		(property "Value" "PLY17BN1023R0B2B 3A 2x1mH"
+			(at 10.922 -8.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at -2.032 3.048 0)
+		(property "Footprint" "DawuKiCADLibrary:PLY17BN1023R0B2B"
+			(at 32.512 -10.668 0)
 			(effects
 				(font
 					(size 1.27 1.27)
