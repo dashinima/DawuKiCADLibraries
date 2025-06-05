@@ -5147,14 +5147,16 @@
 		)
 	)
 	(symbol "GOST_C"
+		(pin_numbers hide)
+		(pin_names hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "C"
-			(at 5 5 0)
+			(at 5 6.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -5259,14 +5261,16 @@
 		)
 	)
 	(symbol "GOST_GND"
+		(pin_numbers hide)
+		(pin_names hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "GND"
-			(at 0 -6 0)
+			(at 0 -7.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -5501,6 +5505,8 @@
 		)
 	)
 	(symbol "GOST_L_Long"
+		(pin_numbers hide)
+		(pin_names hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -5508,7 +5514,7 @@
 			(at 1.27 -1.524 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -5684,15 +5690,245 @@
 			)
 		)
 	)
-	(symbol "GOST_L_Trans"
+	(symbol "GOST_L_One"
+		(pin_numbers hide)
+		(pin_names hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "L"
-			(at 5.08 6.35 0)
+			(at 1.25 -1.75 0)
+			(effects
+				(font
+					(size 2.5 2.5)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "GOST_L_One_0_1"
+			(arc
+				(start 5 0)
+				(mid 3.75 1.25)
+				(end 2.5 0)
+				(stroke
+					(width 0.6)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "GOST_L_One_1_1"
+			(pin passive line
+				(at 0 0 0)
+				(length 2.5)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.5 0 180)
+				(length 2.5)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "GOST_L_Short"
+		(pin_numbers hide)
+		(pin_names hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "L"
+			(at 1.25 -1.75 0)
+			(effects
+				(font
+					(size 2.5 2.5)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "GOST_L_Short_0_1"
+			(arc
+				(start 5 0)
+				(mid 3.75 1.25)
+				(end 2.5 0)
+				(stroke
+					(width 0.6)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 7.5 0)
+				(mid 6.25 1.25)
+				(end 5 0)
+				(stroke
+					(width 0.6)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 10 0)
+				(mid 8.75 1.25)
+				(end 7.5 0)
+				(stroke
+					(width 0.6)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "GOST_L_Short_1_1"
+			(pin passive line
+				(at 0 0 0)
+				(length 2.5)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 12.5 0 180)
+				(length 2.5)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "GOST_L_Trans"
+		(pin_numbers hide)
+		(pin_names hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "L"
+			(at 5 7.75 0)
+			(effects
+				(font
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -5977,14 +6213,16 @@
 		)
 	)
 	(symbol "GOST_R"
+		(pin_numbers hide)
+		(pin_names hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "R"
-			(at 7.366 3.048 0)
+			(at 7.5 5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -6076,14 +6314,16 @@
 		)
 	)
 	(symbol "GOST_SA"
+		(pin_numbers hide)
+		(pin_names hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "SA"
-			(at 5 4 0)
+			(at 5 5.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -6198,14 +6438,15 @@
 		)
 	)
 	(symbol "GOST_VD"
+		(pin_names hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "VS"
-			(at 3.048 3.556 0)
+			(at 4.5 5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -6310,17 +6551,17 @@
 			(pin passive line
 				(at 0 0 0)
 				(length 2.5)
-				(name ""
+				(name "A"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.8 1.8)
 						)
 					)
 				)
 				(number "A"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.8 1.8)
 						)
 					)
 				)
@@ -6328,17 +6569,17 @@
 			(pin passive line
 				(at 10 0 180)
 				(length 2.5)
-				(name ""
+				(name "C"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.8 1.8)
 						)
 					)
 				)
 				(number "C"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.8 1.8)
 						)
 					)
 				)
@@ -6346,6 +6587,7 @@
 		)
 	)
 	(symbol "GOST_VD_Bridge"
+		(pin_numbers hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -6353,7 +6595,7 @@
 			(at 15 7.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -6473,14 +6715,14 @@
 				(name "+"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.8 1.8)
 						)
 					)
 				)
 				(number "1"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.8 1.8)
 						)
 					)
 				)
@@ -6491,14 +6733,14 @@
 				(name "~~"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.8 1.8)
 						)
 					)
 				)
 				(number "2"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.8 1.8)
 						)
 					)
 				)
@@ -6509,14 +6751,14 @@
 				(name "~~"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.8 1.8)
 						)
 					)
 				)
 				(number "3"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.8 1.8)
 						)
 					)
 				)
@@ -6527,14 +6769,14 @@
 				(name "-"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.8 1.8)
 						)
 					)
 				)
 				(number "4"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.8 1.8)
 						)
 					)
 				)
@@ -6542,14 +6784,16 @@
 		)
 	)
 	(symbol "GOST_VL"
+		(pin_numbers hide)
+		(pin_names hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "VL"
-			(at 5.25 -4 0)
+			(at 6.25 -2 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -6688,14 +6932,15 @@
 		)
 	)
 	(symbol "GOST_VS_Thyristor"
+		(pin_names hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "VS"
-			(at 3.048 3.556 0)
+			(at 4.75 4.75 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -6824,17 +7069,17 @@
 			(pin passive line
 				(at 0 0 0)
 				(length 2.5)
-				(name ""
+				(name "A"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.8 1.8)
 						)
 					)
 				)
 				(number "A"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.8 1.8)
 						)
 					)
 				)
@@ -6842,17 +7087,17 @@
 			(pin passive line
 				(at 10 0 180)
 				(length 2.5)
-				(name ""
+				(name "C"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.8 1.8)
 						)
 					)
 				)
 				(number "C"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.8 1.8)
 						)
 					)
 				)
@@ -6860,17 +7105,17 @@
 			(pin input line
 				(at 10 -10 90)
 				(length 2.5)
-				(name ""
+				(name "G"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.8 1.8)
 						)
 					)
 				)
 				(number "G"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.8 1.8)
 						)
 					)
 				)
