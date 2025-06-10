@@ -1,0 +1,414 @@
+(kicad_wks
+	(version 20231118)
+	(generator "pl_editor")
+	(generator_version "8.0")
+	(setup
+		(textsize 2.5 3)
+		(linewidth 0.25)
+		(textlinewidth 0.25)
+		(left_margin 20)
+		(right_margin 5)
+		(top_margin 5)
+		(bottom_margin 5)
+	)
+	(rect
+		(name "")
+		(start 0.0002 0.0002)
+		(end 185.0002 55.0002)
+		(linewidth 0.75)
+	)
+	(line
+		(name "")
+		(start 0.0002 15.0002)
+		(end 120.0002 15.0002)
+		(linewidth 0.75)
+	)
+	(line
+		(name "")
+		(start 0.0002 20.0002)
+		(end 50.0002 20.0002)
+		(linewidth 0.75)
+	)
+	(line
+		(name "")
+		(start 0.0002 35.0002)
+		(end 50.0002 35.0002)
+		(linewidth 0.75)
+	)
+	(line
+		(name "")
+		(start 0.0002 40.0002)
+		(end 120.0002 40.0002)
+		(linewidth 0.75)
+	)
+	(line
+		(name "")
+		(start 50.0002 0.0002)
+		(end 50.0002 40.0002)
+		(linewidth 0.75)
+	)
+	(line
+		(name "")
+		(start 120.0002 0.0002)
+		(end 120.0002 55.0002)
+		(linewidth 0.75)
+	)
+	(line
+		(name "")
+		(start 130.0002 0.0002)
+		(end 130.0002 55.0002)
+		(linewidth 0.75)
+	)
+	(line
+		(name "")
+		(start 145.0002 0.0002)
+		(end 145.0002 55.0002)
+		(linewidth 0.75)
+	)
+	(line
+		(name "")
+		(start 168.0002 0.0002)
+		(end 168.0002 55.0002)
+		(linewidth 0.75)
+	)
+	(line
+		(name "")
+		(start 178.0002 55.0002)
+		(end 178.0002 30.0002)
+	)
+	(line
+		(name "")
+		(start 18.0002 20.0002)
+		(end 18.0002 40.0002)
+		(linewidth 0.75)
+	)
+	(line
+		(name "")
+		(start 35.0002 20.0002)
+		(end 35.0002 40.0002)
+		(linewidth 0.75)
+	)
+	(line
+		(name "")
+		(start 40.0002 35.0002)
+		(end 40.0002 20.0002)
+	)
+	(line
+		(name "")
+		(start 45.0002 35.0002)
+		(end 45.0002 20.0002)
+	)
+	(line
+		(name "")
+		(start 30.0002 20.0002)
+		(end 30.0002 15.0002)
+		(linewidth 0.75)
+	)
+	(line
+		(name "")
+		(start 185.0002 5.0002)
+		(end 120.0002 5.0002)
+	)
+	(line
+		(name "")
+		(start 185.0022 10.0072)
+		(end 120.0022 10.0072)
+	)
+	(line
+		(name "")
+		(start 185.0022 15.0072)
+		(end 120.0022 15.0072)
+	)
+	(line
+		(name "")
+		(start 185.0022 20.0072)
+		(end 120.0022 20.0072)
+	)
+	(line
+		(name "")
+		(start 185.0022 25.0072)
+		(end 120.0022 25.0072)
+	)
+	(line
+		(name "")
+		(start 185.002 30.007)
+		(end 120.002 30.007)
+		(linewidth 0.75)
+	)
+	(line
+		(name "")
+		(start 185.002 35.007)
+		(end 120.002 35.007)
+		(linewidth 0.75)
+	)
+	(line
+		(name "")
+		(start 185.0022 40.0072)
+		(end 120.0022 40.0072)
+	)
+	(line
+		(name "")
+		(start 185.0022 45.0072)
+		(end 120.0022 45.0072)
+	)
+	(line
+		(name "")
+		(start 185.0022 50.0072)
+		(end 120.0022 50.0072)
+	)
+	(tbtext "Изм."
+		(name "")
+		(pos 183.9892 32.0022)
+		(font
+			(face "T-FLEX Type A") italic)
+	)
+	(tbtext "Лист"
+		(name "")
+		(pos 176.9892 32.0022)
+		(font
+			(face "T-FLEX Type A") italic)
+	)
+	(tbtext "Разраб."
+		(name "")
+		(pos 183.9892 27.0022)
+		(font
+			(face "T-FLEX Type A") italic)
+	)
+	(tbtext "Провер."
+		(name "")
+		(pos 183.9892 22.0022)
+		(font
+			(face "T-FLEX Type A") italic)
+	)
+	(tbtext "Т.контр."
+		(name "")
+		(pos 183.9892 17.0022)
+		(font
+			(face "T-FLEX Type A") italic)
+	)
+	(tbtext "Н.контр."
+		(name "")
+		(pos 183.9892 7.0022)
+		(font
+			(face "T-FLEX Type A") italic)
+	)
+	(tbtext "Утв."
+		(name "")
+		(pos 183.9892 2.0022)
+		(font
+			(face "T-FLEX Type A") italic)
+	)
+	(tbtext "№ докум."
+		(name "")
+		(pos 166.9892 32.0022)
+		(font
+			(face "T-FLEX Type A") italic)
+	)
+	(tbtext "Подпись"
+		(name "")
+		(pos 143.9892 32.0022)
+		(font
+			(face "T-FLEX Type A") italic)
+	)
+	(tbtext "Дата"
+		(name "")
+		(pos 128.9892 32.0022)
+		(font
+			(face "T-FLEX Type A") italic)
+	)
+	(tbtext "Лит."
+		(name "")
+		(pos 42.9892 37.0022)
+		(font
+			(face "T-FLEX Type A") italic)
+		(justify center)
+	)
+	(tbtext "Масса"
+		(name "")
+		(pos 30.9892 37.0022)
+		(font
+			(face "T-FLEX Type A") italic)
+	)
+	(tbtext "Масштаб"
+		(name "")
+		(pos 15.9892 37.0022)
+		(font
+			(face "T-FLEX Type A") italic)
+	)
+	(tbtext "Лист"
+		(name "")
+		(pos 48.9892 17.0022)
+		(font
+			(face "T-FLEX Type A") italic)
+	)
+	(tbtext "Листов"
+		(name "")
+		(pos 28.9892 17.0022)
+		(font
+			(face "T-FLEX Type A") italic)
+	)
+	(rect
+		(name "")
+		(start 816 584)
+		(end 0 0)
+		(linewidth 0.75)
+	)
+	(rect
+		(name "")
+		(start 816.002 584.0074)
+		(end 746.002 570.0074)
+		(linewidth 0.75)
+	)
+	(tbtext "${COMMENT2}"
+		(name "")
+		(pos 166.989 27.002)
+		(font
+			(face "T-FLEX Type A")
+			(size 2.5 3) italic)
+		(comment "Разраб.")
+	)
+	(tbtext "${COMMENT3}"
+		(name "")
+		(pos 166.994 22.004)
+		(font
+			(face "T-FLEX Type A")
+			(size 2.5 3) italic)
+		(comment "Провер.")
+	)
+	(tbtext "${COMMENT1}"
+		(name "")
+		(pos 62.994 47.004)
+		(font
+			(face "T-FLEX Type B")
+			(size 9 12) italic)
+		(justify center)
+		(comment "COMMENT1")
+	)
+	(tbtext "${COMMENT5}"
+		(name "")
+		(pos 166.994 17.004)
+		(font
+			(face "T-FLEX Type A")
+			(size 2.5 3) italic)
+		(comment "Т.контр.")
+	)
+	(tbtext "${COMMENT6}"
+		(name "")
+		(pos 166.994 7.004)
+		(font
+			(face "T-FLEX Type A")
+			(size 2.5 3) italic)
+		(comment "Н.контр.")
+	)
+	(tbtext "${COMMENT4}"
+		(name "")
+		(pos 166.994 2.004)
+		(font
+			(face "T-FLEX Type A")
+			(size 2.5 3) italic)
+		(comment "Утв.")
+	)
+	(tbtext "${ISSUE_DATE}"
+		(name "")
+		(pos 128.994 27.004)
+		(font
+			(face "T-FLEX Type A")
+			(size 2.5 3) italic)
+		(comment "Дата")
+	)
+	(tbtext "${COMPANY}"
+		(name "")
+		(pos 24.994 7.004)
+		(font
+			(face "T-FLEX Type B")
+			(size 8 10) italic)
+		(justify center)
+		(maxlen 40)
+		(comment "Организация")
+	)
+	(tbtext "${TITLE}"
+		(name "")
+		(pos 80.994 576.0044)
+		(font
+			(face "T-FLEX Type B")
+			(size 6 8) italic)
+		(justify center)
+		(comment "Название")
+	)
+	(tbtext "${#}"
+		(name "")
+		(pos 39.994 17.004)
+		(font
+			(face "T-FLEX Type A")
+			(size 2.5 3) italic)
+		(comment "Лист")
+	)
+	(tbtext "${##}"
+		(name "")
+		(pos 14.994 17.004)
+		(font
+			(face "T-FLEX Type A")
+			(size 2.5 3) italic)
+		(comment "Листов")
+	)
+	(tbtext "${KICAD_VERSION}"
+		(name "")
+		(pos 183.994 -2.996)
+		(font
+			(face "T-FLEX Type A")
+			(size 2.5 3) italic)
+		(comment "KiCAD")
+	)
+	(tbtext "${KICAD_VERSION}"
+		(name "")
+		(pos 119.994 -2.9956)
+		(font
+			(face "T-FLEX Type A")
+			(size 2.5 3) italic)
+		(comment "KiCAD")
+	)
+	(tbtext "${CURRENT_DATE}"
+		(name "")
+		(pos 49.994 -2.996)
+		(font
+			(face "T-FLEX Type A")
+			(size 2.5 3) italic)
+		(comment "Date")
+	)
+	(tbtext "${COMMENT1}"
+		(name "")
+		(pos 780.994 577.0044)
+		(rotate 180)
+		(font
+			(face "T-FLEX Type B")
+			(size 9 12) italic)
+		(justify center)
+		(comment "COMMENT1")
+	)
+	(tbtext "${COMMENT9}"
+		(name "")
+		(pos 815.994 586.0044)
+		(font
+			(face "T-FLEX Type A")
+			(size 2.5 3)
+		)
+	)
+	(tbtext "${COMMENT7}"
+		(name "")
+		(pos 84.994 32.004)
+		(font
+			(face "T-FLEX Type B")
+			(size 5 6) italic)
+		(justify center)
+		(comment "COMMENT1")
+	)
+	(tbtext "${COMMENT8}"
+		(name "")
+		(pos 84.994 22.004)
+		(font
+			(face "T-FLEX Type B")
+			(size 5 6) italic)
+		(justify center)
+		(comment "COMMENT1")
+	)
+)

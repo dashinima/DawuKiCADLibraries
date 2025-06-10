@@ -8705,6 +8705,359 @@
 			)
 		)
 	)
+	(symbol "GOST_SA_3Phase_RPB-1-100A_Horis"
+		(pin_names hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "SA"
+			(at 6 -20 0)
+			(effects
+				(font
+					(size 2.5 2.5)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 -45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 -45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 -45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 -45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "GOST_SA_3Phase_RPB-1-100A_Horis_0_1"
+			(polyline
+				(pts
+					(xy 3 -60) (xy 9 -60)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3 -55) (xy 9 -55)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.5 -43.5) (xy 5.5 -23.5)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 6.5 -23) (xy 6.5 -43)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8 -42) (xy 3 -45)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8 -32) (xy 3 -35)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8 -22) (xy 3 -25)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 9 -45.5) (xy 9 -44.5)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 9 -35.5) (xy 9 -34.5)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 9 -25.5) (xy 9 -24.5)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "GOST_SA_3Phase_RPB-1-100A_Horis_1_1"
+			(pin output line
+				(at 10 -45 180)
+				(length 1)
+				(name "L1_"
+					(effects
+						(font
+							(size 1.8 1.8)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.8 1.8)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 10 -35 180)
+				(length 1)
+				(name "L2_"
+					(effects
+						(font
+							(size 1.8 1.8)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.8 1.8)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 10 -25 180)
+				(length 1)
+				(name "L3_"
+					(effects
+						(font
+							(size 1.8 1.8)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.8 1.8)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 10 -55 180)
+				(length 1)
+				(name "N_"
+					(effects
+						(font
+							(size 1.8 1.8)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.8 1.8)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 10 -60 180)
+				(length 1)
+				(name "PE_"
+					(effects
+						(font
+							(size 1.8 1.8)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.8 1.8)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -45 0)
+				(length 3)
+				(name "L1"
+					(effects
+						(font
+							(size 1.8 1.8)
+						)
+					)
+				)
+				(number "L1"
+					(effects
+						(font
+							(size 1.8 1.8)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -35 0)
+				(length 3)
+				(name "L2"
+					(effects
+						(font
+							(size 1.8 1.8)
+						)
+					)
+				)
+				(number "L2"
+					(effects
+						(font
+							(size 1.8 1.8)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -25 0)
+				(length 3)
+				(name "L3"
+					(effects
+						(font
+							(size 1.8 1.8)
+						)
+					)
+				)
+				(number "L3"
+					(effects
+						(font
+							(size 1.8 1.8)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -55 0)
+				(length 3)
+				(name "N"
+					(effects
+						(font
+							(size 1.8 1.8)
+						)
+					)
+				)
+				(number "N"
+					(effects
+						(font
+							(size 1.8 1.8)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -60 0)
+				(length 3)
+				(name "PE"
+					(effects
+						(font
+							(size 1.8 1.8)
+						)
+					)
+				)
+				(number "PE"
+					(effects
+						(font
+							(size 1.8 1.8)
+						)
+					)
+				)
+			)
+		)
+	)
 	(symbol "GOST_SA_Button_NC_NO_Emergency"
 		(pin_numbers hide)
 		(exclude_from_sim no)
@@ -26190,7 +26543,7 @@
 			)
 			(polyline
 				(pts
-					(xy 57.4393 -95.9394) (xy 56.3786 -97)
+					(xy 54.9393 -95.9394) (xy 53.8786 -97)
 				)
 				(stroke
 					(width 0.25)
@@ -26202,7 +26555,7 @@
 			)
 			(polyline
 				(pts
-					(xy 57.4393 -95.9394) (xy 57.4393 -93.9394)
+					(xy 54.9393 -95.9394) (xy 54.9393 -93.9394)
 				)
 				(stroke
 					(width 0.25)
@@ -26214,7 +26567,7 @@
 			)
 			(polyline
 				(pts
-					(xy 58.5 -97) (xy 57.4393 -95.9394)
+					(xy 56 -97) (xy 54.9393 -95.9394)
 				)
 				(stroke
 					(width 0.25)
@@ -26226,7 +26579,7 @@
 			)
 			(polyline
 				(pts
-					(xy 87.4393 -95.9394) (xy 86.3786 -97)
+					(xy 84.9393 -95.9394) (xy 83.8786 -97)
 				)
 				(stroke
 					(width 0.25)
@@ -26238,7 +26591,7 @@
 			)
 			(polyline
 				(pts
-					(xy 87.4393 -95.9394) (xy 87.4393 -93.9394)
+					(xy 84.9393 -95.9394) (xy 84.9393 -93.9394)
 				)
 				(stroke
 					(width 0.25)
@@ -26250,7 +26603,7 @@
 			)
 			(polyline
 				(pts
-					(xy 88.5 -97) (xy 87.4393 -95.9394)
+					(xy 86 -97) (xy 84.9393 -95.9394)
 				)
 				(stroke
 					(width 0.25)
@@ -26262,7 +26615,7 @@
 			)
 			(polyline
 				(pts
-					(xy 122.4393 -95.9394) (xy 121.3786 -97)
+					(xy 119.9393 -95.9394) (xy 118.8786 -97)
 				)
 				(stroke
 					(width 0.25)
@@ -26274,7 +26627,7 @@
 			)
 			(polyline
 				(pts
-					(xy 122.4393 -95.9394) (xy 122.4393 -93.9394)
+					(xy 119.9393 -95.9394) (xy 119.9393 -93.9394)
 				)
 				(stroke
 					(width 0.25)
@@ -26286,7 +26639,7 @@
 			)
 			(polyline
 				(pts
-					(xy 123.5 -97) (xy 122.4393 -95.9394)
+					(xy 121 -97) (xy 119.9393 -95.9394)
 				)
 				(stroke
 					(width 0.25)
@@ -26298,7 +26651,7 @@
 			)
 			(polyline
 				(pts
-					(xy 152.4393 -95.9394) (xy 151.3786 -97)
+					(xy 149.9393 -95.9394) (xy 148.8786 -97)
 				)
 				(stroke
 					(width 0.25)
@@ -26310,7 +26663,7 @@
 			)
 			(polyline
 				(pts
-					(xy 152.4393 -95.9394) (xy 152.4393 -93.9394)
+					(xy 149.9393 -95.9394) (xy 149.9393 -93.9394)
 				)
 				(stroke
 					(width 0.25)
@@ -26322,7 +26675,7 @@
 			)
 			(polyline
 				(pts
-					(xy 153.5 -97) (xy 152.4393 -95.9394)
+					(xy 151 -97) (xy 149.9393 -95.9394)
 				)
 				(stroke
 					(width 0.25)
@@ -26696,7 +27049,7 @@
 			)
 			(polyline
 				(pts
-					(xy 55 -90) (xy 75 -90)
+					(xy 52.5 -90) (xy 72.5 -90)
 				)
 				(stroke
 					(width 0)
@@ -26708,7 +27061,7 @@
 			)
 			(polyline
 				(pts
-					(xy 55 -62.5) (xy 75 -62.5)
+					(xy 52.5 -62.5) (xy 72.5 -62.5)
 				)
 				(stroke
 					(width 0)
@@ -26720,7 +27073,7 @@
 			)
 			(polyline
 				(pts
-					(xy 60 -100) (xy 60 -62.5)
+					(xy 57.5 -100) (xy 57.5 -62.5)
 				)
 				(stroke
 					(width 0)
@@ -26732,7 +27085,7 @@
 			)
 			(polyline
 				(pts
-					(xy 65 -100) (xy 65 -62.5)
+					(xy 62.5 -100) (xy 62.5 -62.5)
 				)
 				(stroke
 					(width 0)
@@ -26744,7 +27097,7 @@
 			)
 			(polyline
 				(pts
-					(xy 70 -100) (xy 70 -62.5)
+					(xy 67.5 -100) (xy 67.5 -62.5)
 				)
 				(stroke
 					(width 0)
@@ -26756,7 +27109,7 @@
 			)
 			(polyline
 				(pts
-					(xy 85 -90) (xy 110 -90)
+					(xy 82.5 -90) (xy 107.5 -90)
 				)
 				(stroke
 					(width 0)
@@ -26768,7 +27121,7 @@
 			)
 			(polyline
 				(pts
-					(xy 85 -62.5) (xy 110 -62.5)
+					(xy 82.5 -62.5) (xy 107.5 -62.5)
 				)
 				(stroke
 					(width 0)
@@ -26780,7 +27133,7 @@
 			)
 			(polyline
 				(pts
-					(xy 90 -100) (xy 90 -62.5)
+					(xy 87.5 -100) (xy 87.5 -62.5)
 				)
 				(stroke
 					(width 0)
@@ -26792,7 +27145,7 @@
 			)
 			(polyline
 				(pts
-					(xy 95 -100) (xy 95 -62.5)
+					(xy 92.5 -100) (xy 92.5 -62.5)
 				)
 				(stroke
 					(width 0)
@@ -26804,7 +27157,7 @@
 			)
 			(polyline
 				(pts
-					(xy 100 -100) (xy 100 -62.5)
+					(xy 97.5 -100) (xy 97.5 -62.5)
 				)
 				(stroke
 					(width 0)
@@ -26816,7 +27169,7 @@
 			)
 			(polyline
 				(pts
-					(xy 105 -100) (xy 105 -62.5)
+					(xy 102.5 -100) (xy 102.5 -62.5)
 				)
 				(stroke
 					(width 0)
@@ -26828,7 +27181,7 @@
 			)
 			(polyline
 				(pts
-					(xy 120 -90) (xy 140 -90)
+					(xy 117.5 -90) (xy 137.5 -90)
 				)
 				(stroke
 					(width 0)
@@ -26840,7 +27193,7 @@
 			)
 			(polyline
 				(pts
-					(xy 120 -62.5) (xy 140 -62.5)
+					(xy 117.5 -62.5) (xy 137.5 -62.5)
 				)
 				(stroke
 					(width 0)
@@ -26852,7 +27205,7 @@
 			)
 			(polyline
 				(pts
-					(xy 125 -100) (xy 125 -62.5)
+					(xy 122.5 -100) (xy 122.5 -62.5)
 				)
 				(stroke
 					(width 0)
@@ -26864,7 +27217,7 @@
 			)
 			(polyline
 				(pts
-					(xy 130 -100) (xy 130 -62.5)
+					(xy 127.5 -100) (xy 127.5 -62.5)
 				)
 				(stroke
 					(width 0)
@@ -26876,7 +27229,7 @@
 			)
 			(polyline
 				(pts
-					(xy 135 -100) (xy 135 -62.5)
+					(xy 132.5 -100) (xy 132.5 -62.5)
 				)
 				(stroke
 					(width 0)
@@ -26888,7 +27241,7 @@
 			)
 			(polyline
 				(pts
-					(xy 150 -90) (xy 180 -90)
+					(xy 147.5 -90) (xy 177.5 -90)
 				)
 				(stroke
 					(width 0)
@@ -26900,7 +27253,7 @@
 			)
 			(polyline
 				(pts
-					(xy 150 -62.5) (xy 180 -62.5)
+					(xy 147.5 -62.5) (xy 177.5 -62.5)
 				)
 				(stroke
 					(width 0)
@@ -26912,7 +27265,7 @@
 			)
 			(polyline
 				(pts
-					(xy 155 -100) (xy 155 -62.5)
+					(xy 152.5 -100) (xy 152.5 -62.5)
 				)
 				(stroke
 					(width 0)
@@ -26924,7 +27277,7 @@
 			)
 			(polyline
 				(pts
-					(xy 160 -100) (xy 160 -62.5)
+					(xy 157.5 -100) (xy 157.5 -62.5)
 				)
 				(stroke
 					(width 0)
@@ -26936,7 +27289,7 @@
 			)
 			(polyline
 				(pts
-					(xy 165 -100) (xy 165 -62.5)
+					(xy 162.5 -100) (xy 162.5 -62.5)
 				)
 				(stroke
 					(width 0)
@@ -26948,7 +27301,7 @@
 			)
 			(polyline
 				(pts
-					(xy 170 -100) (xy 170 -62.5)
+					(xy 167.5 -100) (xy 167.5 -62.5)
 				)
 				(stroke
 					(width 0)
@@ -26960,7 +27313,7 @@
 			)
 			(polyline
 				(pts
-					(xy 175 -100) (xy 175 -62.5)
+					(xy 172.5 -100) (xy 172.5 -62.5)
 				)
 				(stroke
 					(width 0)
@@ -27266,8 +27619,8 @@
 				)
 			)
 			(rectangle
-				(start 55 -100)
-				(end 75 -57.5)
+				(start 52.5 -100)
+				(end 72.5 -57.5)
 				(stroke
 					(width 0)
 					(type default)
@@ -27277,8 +27630,8 @@
 				)
 			)
 			(rectangle
-				(start 85 -100)
-				(end 110 -57.5)
+				(start 82.5 -100)
+				(end 107.5 -57.5)
 				(stroke
 					(width 0)
 					(type default)
@@ -27288,8 +27641,8 @@
 				)
 			)
 			(rectangle
-				(start 120 -100)
-				(end 140 -57.5)
+				(start 117.5 -100)
+				(end 137.5 -57.5)
 				(stroke
 					(width 0)
 					(type default)
@@ -27299,8 +27652,8 @@
 				)
 			)
 			(rectangle
-				(start 150 -100)
-				(end 180 -57.5)
+				(start 147.5 -100)
+				(end 177.5 -57.5)
 				(stroke
 					(width 0)
 					(type default)
@@ -27399,7 +27752,7 @@
 				)
 			)
 			(text "Door"
-				(at 177.5 -95 900)
+				(at 175 -95 900)
 				(effects
 					(font
 						(size 2.5 2.5)
@@ -27439,7 +27792,7 @@
 				)
 			)
 			(text "GND"
-				(at 137.5 -95 900)
+				(at 135 -95 900)
 				(effects
 					(font
 						(size 2.5 2.5)
@@ -27447,7 +27800,7 @@
 				)
 			)
 			(text "GND"
-				(at 157.5 -95 900)
+				(at 155 -95 900)
 				(effects
 					(font
 						(size 2.5 2.5)
@@ -27471,7 +27824,7 @@
 				)
 			)
 			(text "I_fb"
-				(at 132.5 -95 900)
+				(at 130 -95 900)
 				(effects
 					(font
 						(size 2.5 2.5)
@@ -27479,7 +27832,7 @@
 				)
 			)
 			(text "Imp1"
-				(at 92.5 -95 900)
+				(at 90 -95 900)
 				(effects
 					(font
 						(size 2.5 2.5)
@@ -27487,7 +27840,7 @@
 				)
 			)
 			(text "Imp2"
-				(at 102.5 -95 900)
+				(at 100 -95 900)
 				(effects
 					(font
 						(size 2.5 2.5)
@@ -27560,7 +27913,7 @@
 				)
 			)
 			(text "Pres"
-				(at 172.5 -95 900)
+				(at 170 -95 900)
 				(effects
 					(font
 						(size 2.5 2.5)
@@ -27632,7 +27985,7 @@
 				)
 			)
 			(text "RTN"
-				(at 97.5 -95 900)
+				(at 95 -95 900)
 				(effects
 					(font
 						(size 2.5 2.5)
@@ -27640,7 +27993,7 @@
 				)
 			)
 			(text "RTN"
-				(at 107.5 -95 900)
+				(at 105 -95 900)
 				(effects
 					(font
 						(size 2.5 2.5)
@@ -27672,7 +28025,7 @@
 				)
 			)
 			(text "S_L"
-				(at 62.5 -95 900)
+				(at 60 -95 900)
 				(effects
 					(font
 						(size 2.5 2.5)
@@ -27680,7 +28033,7 @@
 				)
 			)
 			(text "S_N"
-				(at 67.5 -95 900)
+				(at 65 -95 900)
 				(effects
 					(font
 						(size 2.5 2.5)
@@ -27688,7 +28041,7 @@
 				)
 			)
 			(text "Sens"
-				(at 167.5 -95 900)
+				(at 165 -95 900)
 				(effects
 					(font
 						(size 2.5 2.5)
@@ -27705,7 +28058,7 @@
 				)
 			)
 			(text "Temp"
-				(at 162.5 -95 900)
+				(at 160 -95 900)
 				(effects
 					(font
 						(size 2.5 2.5)
@@ -27713,7 +28066,7 @@
 				)
 			)
 			(text "V_fb"
-				(at 127.5 -95 900)
+				(at 125 -95 900)
 				(effects
 					(font
 						(size 2.5 2.5)
@@ -27747,7 +28100,7 @@
 				)
 			)
 			(text "Возвратный"
-				(at 97.5 -77.5 900)
+				(at 95 -77.5 900)
 				(effects
 					(font
 						(size 2.5 2.5)
@@ -27755,7 +28108,7 @@
 				)
 			)
 			(text "Возвратный"
-				(at 107.5 -77.5 900)
+				(at 105 -77.5 900)
 				(effects
 					(font
 						(size 2.5 2.5)
@@ -27763,7 +28116,7 @@
 				)
 			)
 			(text "Давление"
-				(at 172.5 -77.5 900)
+				(at 170 -77.5 900)
 				(effects
 					(font
 						(size 2.5 2.5)
@@ -27778,8 +28131,16 @@
 					)
 				)
 			)
+			(text "Датч.дверцы"
+				(at 175 -77.5 900)
+				(effects
+					(font
+						(size 2.5 2.5)
+					)
+				)
+			)
 			(text "Датчики"
-				(at 165 -60 0)
+				(at 162.5 -60 0)
 				(effects
 					(font
 						(size 2.5 2.5)
@@ -27797,14 +28158,6 @@
 			)
 			(text "Заземление"
 				(at 25 -10 0)
-				(effects
-					(font
-						(size 2.5 2.5)
-					)
-				)
-			)
-			(text "Заземление"
-				(at 177.5 -77.5 900)
 				(effects
 					(font
 						(size 2.5 2.5)
@@ -27836,7 +28189,7 @@
 				)
 			)
 			(text "Напряжение"
-				(at 127.5 -77.5 900)
+				(at 125 -77.5 900)
 				(effects
 					(font
 						(size 2.5 2.5)
@@ -27852,7 +28205,7 @@
 				)
 			)
 			(text "Нейтр.~220В"
-				(at 67.5 -77.5 900)
+				(at 65 -77.5 900)
 				(effects
 					(font
 						(size 2.5 2.5)
@@ -27860,7 +28213,7 @@
 				)
 			)
 			(text "Обр.связь"
-				(at 130 -60 0)
+				(at 127.5 -60 0)
 				(effects
 					(font
 						(size 2.5 2.5)
@@ -27893,7 +28246,7 @@
 				)
 			)
 			(text "Общий"
-				(at 137.5 -77.5 900)
+				(at 135 -77.5 900)
 				(effects
 					(font
 						(size 2.5 2.5)
@@ -27901,7 +28254,7 @@
 				)
 			)
 			(text "Общий"
-				(at 157.5 -77.5 900)
+				(at 155 -77.5 900)
 				(effects
 					(font
 						(size 2.5 2.5)
@@ -27982,7 +28335,7 @@
 				)
 			)
 			(text "Синхр."
-				(at 65 -60 0)
+				(at 62.5 -60 0)
 				(effects
 					(font
 						(size 2.5 2.5)
@@ -27991,7 +28344,7 @@
 				)
 			)
 			(text "Темп.реле"
-				(at 162.5 -77.5 900)
+				(at 160 -77.5 900)
 				(effects
 					(font
 						(size 2.5 2.5)
@@ -27999,7 +28352,7 @@
 				)
 			)
 			(text "Температура"
-				(at 167.5 -77.5 900)
+				(at 165 -77.5 900)
 				(effects
 					(font
 						(size 2.5 2.5)
@@ -28007,7 +28360,7 @@
 				)
 			)
 			(text "Тиристоры"
-				(at 97.5 -60 0)
+				(at 95 -60 0)
 				(effects
 					(font
 						(size 2.5 2.5)
@@ -28016,7 +28369,7 @@
 				)
 			)
 			(text "Ток"
-				(at 132.5 -77.5 900)
+				(at 130 -77.5 900)
 				(effects
 					(font
 						(size 2.5 2.5)
@@ -28024,7 +28377,7 @@
 				)
 			)
 			(text "Тринистор 1"
-				(at 92.5 -77.5 900)
+				(at 90 -77.5 900)
 				(effects
 					(font
 						(size 2.5 2.5)
@@ -28032,7 +28385,7 @@
 				)
 			)
 			(text "Тринистор 2"
-				(at 102.5 -77.5 900)
+				(at 100 -77.5 900)
 				(effects
 					(font
 						(size 2.5 2.5)
@@ -28048,7 +28401,7 @@
 				)
 			)
 			(text "Фаза ~220В"
-				(at 62.5 -77.5 900)
+				(at 60 -77.5 900)
 				(effects
 					(font
 						(size 2.5 2.5)
@@ -28088,7 +28441,7 @@
 				)
 			)
 			(text "Цепь"
-				(at 57.5 -77.5 900)
+				(at 55 -77.5 900)
 				(effects
 					(font
 						(size 2.5 2.5)
@@ -28096,7 +28449,7 @@
 				)
 			)
 			(text "Цепь"
-				(at 87.5 -77.5 900)
+				(at 85 -77.5 900)
 				(effects
 					(font
 						(size 2.5 2.5)
@@ -28104,7 +28457,7 @@
 				)
 			)
 			(text "Цепь"
-				(at 122.5 -77.5 900)
+				(at 120 -77.5 900)
 				(effects
 					(font
 						(size 2.5 2.5)
@@ -28112,7 +28465,7 @@
 				)
 			)
 			(text "Цепь"
-				(at 152.5 -77.5 900)
+				(at 150 -77.5 900)
 				(effects
 					(font
 						(size 2.5 2.5)
@@ -28153,7 +28506,7 @@
 				)
 			)
 			(pin input line
-				(at 97.5 -102.5 90)
+				(at 95 -102.5 90)
 				(length 2.5)
 				(name "Return1"
 					(effects
@@ -28171,7 +28524,7 @@
 				)
 			)
 			(pin input line
-				(at 62.5 -102.5 90)
+				(at 60 -102.5 90)
 				(length 2.5)
 				(name "S_L"
 					(effects
@@ -28189,7 +28542,7 @@
 				)
 			)
 			(pin input line
-				(at 67.5 -102.5 90)
+				(at 65 -102.5 90)
 				(length 2.5)
 				(name "S_N"
 					(effects
@@ -28207,7 +28560,7 @@
 				)
 			)
 			(pin output line
-				(at 127.5 -102.5 90)
+				(at 125 -102.5 90)
 				(length 2.5)
 				(name "V_fb"
 					(effects
@@ -28225,7 +28578,7 @@
 				)
 			)
 			(pin output line
-				(at 132.5 -102.5 90)
+				(at 130 -102.5 90)
 				(length 2.5)
 				(name "I_fb"
 					(effects
@@ -28243,7 +28596,7 @@
 				)
 			)
 			(pin output line
-				(at 137.5 -102.5 90)
+				(at 135 -102.5 90)
 				(length 2.5)
 				(name "GND"
 					(effects
@@ -28351,7 +28704,7 @@
 				)
 			)
 			(pin input line
-				(at 92.5 -102.5 90)
+				(at 90 -102.5 90)
 				(length 2.5)
 				(name "Impulse1"
 					(effects
@@ -28549,7 +28902,7 @@
 				)
 			)
 			(pin input line
-				(at 102.5 -102.5 90)
+				(at 100 -102.5 90)
 				(length 2.5)
 				(name "Impulse2"
 					(effects
@@ -28747,7 +29100,7 @@
 				)
 			)
 			(pin input line
-				(at 157.5 -102.5 90)
+				(at 155 -102.5 90)
 				(length 2.5)
 				(name "GND"
 					(effects
@@ -28765,7 +29118,7 @@
 				)
 			)
 			(pin input line
-				(at 107.5 -102.5 90)
+				(at 105 -102.5 90)
 				(length 2.5)
 				(name "Return2"
 					(effects
@@ -28783,7 +29136,7 @@
 				)
 			)
 			(pin input line
-				(at 162.5 -102.5 90)
+				(at 160 -102.5 90)
 				(length 2.5)
 				(name "Temp"
 					(effects
@@ -28801,7 +29154,7 @@
 				)
 			)
 			(pin input line
-				(at 167.5 -102.5 90)
+				(at 165 -102.5 90)
 				(length 2.5)
 				(name "TempSens"
 					(effects
@@ -28819,7 +29172,7 @@
 				)
 			)
 			(pin input line
-				(at 172.5 -102.5 90)
+				(at 170 -102.5 90)
 				(length 2.5)
 				(name "Pressure"
 					(effects
@@ -28837,7 +29190,7 @@
 				)
 			)
 			(pin input line
-				(at 177.5 -102.5 90)
+				(at 175 -102.5 90)
 				(length 2.5)
 				(name "OutEarth"
 					(effects

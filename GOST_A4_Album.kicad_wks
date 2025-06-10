@@ -1,0 +1,260 @@
+(kicad_wks
+	(version 20231118)
+	(generator "pl_editor")
+	(generator_version "8.0")
+	(setup
+		(textsize 2.5 3)
+		(linewidth 0.25)
+		(textlinewidth 0.25)
+		(left_margin 20)
+		(right_margin 5)
+		(top_margin 5)
+		(bottom_margin 5)
+	)
+	(rect
+		(name "")
+		(start 0.0002 0.0002)
+		(end 185.0002 55.0002)
+		(linewidth 0.75)
+	)
+	(line
+		(name "")
+		(start 0.0002 15.0002)
+		(end 120.0002 15.0002)
+		(linewidth 0.75)
+	)
+	(line
+		(name "")
+		(start 0.0002 20.0002)
+		(end 50.0002 20.0002)
+		(linewidth 0.75)
+	)
+	(line
+		(name "")
+		(start 0.0002 35.0002)
+		(end 50.0002 35.0002)
+		(linewidth 0.75)
+	)
+	(line
+		(name "")
+		(start 0.0002 40.0002)
+		(end 120.0002 40.0002)
+		(linewidth 0.75)
+	)
+	(line
+		(name "")
+		(start 50.0002 0.0002)
+		(end 50.0002 40.0002)
+		(linewidth 0.75)
+	)
+	(line
+		(name "")
+		(start 120.0002 0.0002)
+		(end 120.0002 55.0002)
+		(linewidth 0.75)
+	)
+	(line
+		(name "")
+		(start 130.0002 0.0002)
+		(end 130.0002 55.0002)
+		(linewidth 0.75)
+	)
+	(line
+		(name "")
+		(start 145.0002 0.0002)
+		(end 145.0002 55.0002)
+		(linewidth 0.75)
+	)
+	(line
+		(name "")
+		(start 168.0002 0.0002)
+		(end 168.0002 55.0002)
+		(linewidth 0.75)
+	)
+	(line
+		(name "")
+		(start 178.0002 55.0002)
+		(end 178.0002 30.0002)
+	)
+	(line
+		(name "")
+		(start 18.0002 20.0002)
+		(end 18.0002 40.0002)
+		(linewidth 0.75)
+	)
+	(line
+		(name "")
+		(start 35.0002 20.0002)
+		(end 35.0002 40.0002)
+		(linewidth 0.75)
+	)
+	(line
+		(name "")
+		(start 40.0002 35.0002)
+		(end 40.0002 20.0002)
+	)
+	(line
+		(name "")
+		(start 45.0002 35.0002)
+		(end 45.0002 20.0002)
+	)
+	(line
+		(name "")
+		(start 30.0002 20.0002)
+		(end 30.0002 15.0002)
+		(linewidth 0.75)
+	)
+	(line
+		(name "")
+		(start 185.0002 5.0002)
+		(end 120.0002 5.0002)
+	)
+	(line
+		(name "")
+		(start 185.0022 10.0072)
+		(end 120.0022 10.0072)
+	)
+	(line
+		(name "")
+		(start 185.0022 15.0072)
+		(end 120.0022 15.0072)
+	)
+	(line
+		(name "")
+		(start 185.0022 20.0072)
+		(end 120.0022 20.0072)
+	)
+	(line
+		(name "")
+		(start 185.0022 25.0072)
+		(end 120.0022 25.0072)
+	)
+	(line
+		(name "")
+		(start 185.0022 30.0072)
+		(end 120.0022 30.0072)
+	)
+	(line
+		(name "")
+		(start 185.0022 35.0072)
+		(end 120.0022 35.0072)
+	)
+	(line
+		(name "")
+		(start 185.0022 40.0072)
+		(end 120.0022 40.0072)
+	)
+	(line
+		(name "")
+		(start 185.0022 45.0072)
+		(end 120.0022 45.0072)
+	)
+	(line
+		(name "")
+		(start 185.0022 50.0072)
+		(end 120.0022 50.0072)
+	)
+	(tbtext "Изм."
+		(name "")
+		(pos 183.9892 32.0022)
+		(font
+			(face "T-FLEX Type A") italic)
+	)
+	(tbtext "Лист"
+		(name "")
+		(pos 176.9892 32.0022)
+		(font
+			(face "T-FLEX Type A") italic)
+	)
+	(tbtext "Разраб."
+		(name "")
+		(pos 183.9892 27.0022)
+		(font
+			(face "T-FLEX Type A") italic)
+	)
+	(tbtext "Провер."
+		(name "")
+		(pos 183.9892 22.0022)
+		(font
+			(face "T-FLEX Type A") italic)
+	)
+	(tbtext "Т.контр."
+		(name "")
+		(pos 183.9892 17.0022)
+		(font
+			(face "T-FLEX Type A") italic)
+	)
+	(tbtext "Н.контр."
+		(name "")
+		(pos 183.9892 7.0022)
+		(font
+			(face "T-FLEX Type A") italic)
+	)
+	(tbtext "Утв."
+		(name "")
+		(pos 183.9892 2.0022)
+		(font
+			(face "T-FLEX Type A") italic)
+	)
+	(tbtext "№ докум."
+		(name "")
+		(pos 166.9892 32.0022)
+		(font
+			(face "T-FLEX Type A") italic)
+	)
+	(tbtext "Подпись"
+		(name "")
+		(pos 143.9892 32.0022)
+		(font
+			(face "T-FLEX Type A") italic)
+	)
+	(tbtext "Дата"
+		(name "")
+		(pos 128.9892 32.0022)
+		(font
+			(face "T-FLEX Type A") italic)
+	)
+	(tbtext "Лит."
+		(name "")
+		(pos 42.9892 37.0022)
+		(font
+			(face "T-FLEX Type A") italic)
+		(justify center)
+	)
+	(tbtext "Масса"
+		(name "")
+		(pos 30.9892 37.0022)
+		(font
+			(face "T-FLEX Type A") italic)
+	)
+	(tbtext "Масштаб"
+		(name "")
+		(pos 15.9892 37.0022)
+		(font
+			(face "T-FLEX Type A") italic)
+	)
+	(tbtext "Лист"
+		(name "")
+		(pos 48.9892 17.0022)
+		(font
+			(face "T-FLEX Type A") italic)
+	)
+	(tbtext "Листов"
+		(name "")
+		(pos 28.9892 17.0022)
+		(font
+			(face "T-FLEX Type A") italic)
+	)
+	(rect
+		(name "")
+		(start 272 200)
+		(end 0 0)
+		(linewidth 0.75)
+	)
+	(rect
+		(name "")
+		(start 272.002 200.007)
+		(end 202.002 186.007)
+		(linewidth 0.75)
+	)
+)
