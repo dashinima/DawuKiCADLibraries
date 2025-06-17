@@ -24953,30 +24953,6 @@
 			)
 			(polyline
 				(pts
-					(xy 85.9394 -64.9393) (xy 83.9394 -64.9393)
-				)
-				(stroke
-					(width 0.25)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 85.9394 -64.9393) (xy 87 -63.8786)
-				)
-				(stroke
-					(width 0.25)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
 					(xy 86.5 5) (xy 88.5 5)
 				)
 				(stroke
@@ -24989,7 +24965,7 @@
 			)
 			(polyline
 				(pts
-					(xy 87 -66) (xy 85.9394 -64.9393)
+					(xy 87.4393 6.0607) (xy 88.5 5)
 				)
 				(stroke
 					(width 0.25)
@@ -25001,7 +24977,19 @@
 			)
 			(polyline
 				(pts
-					(xy 87.4393 6.0607) (xy 88.5 5)
+					(xy 88.4394 -64.9393) (xy 86.4394 -64.9393)
+				)
+				(stroke
+					(width 0.25)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 88.4394 -64.9393) (xy 89.5 -63.8786)
 				)
 				(stroke
 					(width 0.25)
@@ -25038,6 +25026,18 @@
 			(polyline
 				(pts
 					(xy 88.5 5) (xy 87.4393 3.9393)
+				)
+				(stroke
+					(width 0.25)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 89.5 -66) (xy 88.4394 -64.9393)
 				)
 				(stroke
 					(width 0.25)
@@ -25291,7 +25291,7 @@
 			)
 			(polyline
 				(pts
-					(xy 52.5 -62.5) (xy 52.5 -77.5)
+					(xy 55 -62.5) (xy 55 -77.5)
 				)
 				(stroke
 					(width 0)
@@ -25327,7 +25327,7 @@
 			)
 			(polyline
 				(pts
-					(xy 80 -62.5) (xy 80 -77.5)
+					(xy 82.5 -62.5) (xy 82.5 -77.5)
 				)
 				(stroke
 					(width 0)
@@ -25363,7 +25363,7 @@
 			)
 			(polyline
 				(pts
-					(xy 90 -72.5) (xy 52.5 -72.5)
+					(xy 92.5 -72.5) (xy 55 -72.5)
 				)
 				(stroke
 					(width 0)
@@ -25375,7 +25375,7 @@
 			)
 			(polyline
 				(pts
-					(xy 90 -67.5) (xy 52.5 -67.5)
+					(xy 92.5 -67.5) (xy 55 -67.5)
 				)
 				(stroke
 					(width 0)
@@ -25502,8 +25502,8 @@
 				)
 			)
 			(rectangle
-				(start 47.5 -62.5)
-				(end 90 -77.5)
+				(start 50 -62.5)
+				(end 92.5 -77.5)
 				(stroke
 					(width 0)
 					(type default)
@@ -25648,7 +25648,7 @@
 				)
 			)
 			(text "P+"
-				(at 85 -75 0)
+				(at 87.5 -75 0)
 				(effects
 					(font
 						(size 2.5 2.5)
@@ -25656,7 +25656,7 @@
 				)
 			)
 			(text "PB"
-				(at 85 -70 0)
+				(at 87.5 -70 0)
 				(effects
 					(font
 						(size 2.5 2.5)
@@ -25834,7 +25834,7 @@
 				)
 			)
 			(text "Резистор+"
-				(at 67.5 -75 0)
+				(at 70 -75 0)
 				(effects
 					(font
 						(size 2.5 2.5)
@@ -25842,7 +25842,7 @@
 				)
 			)
 			(text "Резистор-"
-				(at 67.5 -70 0)
+				(at 70 -70 0)
 				(effects
 					(font
 						(size 2.5 2.5)
@@ -25899,7 +25899,7 @@
 				)
 			)
 			(text "Цепь"
-				(at 67.5 -65 0)
+				(at 70 -65 0)
 				(effects
 					(font
 						(size 2.5 2.5)
@@ -26148,7 +26148,7 @@
 				)
 			)
 			(pin passive line
-				(at 92.5 -75 180)
+				(at 95 -75 180)
 				(length 2.5)
 				(name "P+"
 					(effects
@@ -26166,7 +26166,7 @@
 				)
 			)
 			(pin passive line
-				(at 92.5 -70 180)
+				(at 95 -70 180)
 				(length 2.5)
 				(name "PB"
 					(effects
@@ -30989,6 +30989,223 @@
 				(at 20 -5 180)
 				(length 2)
 				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "PSU_24V_RESERVING"
+		(pin_numbers hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 3 9.5 0)
+			(effects
+				(font
+					(size 2.5 2.5)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "PSU_24V_RESERVING_0_1"
+			(polyline
+				(pts
+					(xy 2.5 -27.5) (xy 2.5 7.5) (xy 17.5 7.5) (xy 17.5 -27.5) (xy 2.5 -27.5)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "PSU_24V_RESERVING_1_1"
+			(text "UPS"
+				(at 10 4.5 0)
+				(effects
+					(font
+						(size 2.5 2.5)
+					)
+				)
+			)
+			(pin input line
+				(at 20 0 180)
+				(length 2.5)
+				(name "24V_OUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 20 -20 180)
+				(length 2.5)
+				(name "BT_DISCHARGE"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 20 -17.5 180)
+				(length 2.5)
+				(name "BT_FAIL"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 20 -15 180)
+				(length 2.5)
+				(name "DC_OK"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 20 -22.5 180)
+				(length 2.5)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 20 -5 180)
+				(length 2.5)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 7.5 -30 90)
+				(length 2.5)
+				(name "BT+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 12.5 -30 90)
+				(length 2.5)
+				(name "BT-"
 					(effects
 						(font
 							(size 1.27 1.27)
