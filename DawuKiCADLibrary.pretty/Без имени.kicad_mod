@@ -1,0 +1,125 @@
+(footprint "Без имени"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "Wurth_74435581200"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "d4a47007-b89e-4e26-badc-5f3c6575f9f7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "12uH 19A 4.3mOhms"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "9f350010-74cc-491a-8225-7a00e3d1f166")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.we-online.com/components/products/datasheet/74435581200.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f94fe426-4d29-4499-b9b2-38c1db811b9b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "WE-HCI power inductors are suitable for a range of applications including industrial computers, laptops, graphic card and motherboards."
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "25690d1d-7edb-4b3a-9f4b-13731391d2e1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -11 -11.25)
+		(end 11 -11.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5f1a9c92-efae-4d54-8416-bbd36f8a6dd6")
+	)
+	(fp_line
+		(start -11 11.25)
+		(end -11 -11.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "38d46c6a-f8e5-42ef-b738-f0b06d9cc06e")
+	)
+	(fp_line
+		(start 11 -11.25)
+		(end 11 11.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1b823330-54a0-4c5e-90d3-9898ad1ed028")
+	)
+	(fp_line
+		(start 11 11.25)
+		(end -11 11.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "89884581-7680-4492-8cf3-40f8737e9333")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -12.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "d9e11aae-33f7-49d7-8c28-d1a94640bb46")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 0 -7.75)
+		(size 5.5 7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "d44e1edf-548d-4052-891e-a12a6e51d65d")
+	)
+	(pad "2" smd roundrect
+		(at 0 7.75)
+		(size 5.5 7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "27f32489-8310-4278-9091-08675ffa6156")
+	)
+	(embedded_fonts no)
+)
