@@ -10508,7 +10508,7 @@
 			)
 			(pin output line
 				(at 30 -25 90)
-				(length 2.4892)
+				(length 2.5)
 				(name "L2_"
 					(effects
 						(font

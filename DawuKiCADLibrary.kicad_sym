@@ -35128,7 +35128,7 @@
 					)
 				)
 			)
-			(text "Общий"
+			(text "+24V"
 				(at 205 -10 0)
 				(effects
 					(font
@@ -35256,7 +35256,7 @@
 					)
 				)
 			)
-			(text "GND"
+			(text "VDD"
 				(at 222.5 -10 0)
 				(effects
 					(font
