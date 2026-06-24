@@ -5866,10 +5866,11 @@
 				(font
 					(size 2.5 2.5)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" ""
-			(at -80 -32.5 90)
+			(at -5 -32.5 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5879,7 +5880,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at -80 -32.5 90)
+			(at -5 -32.5 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -5890,7 +5891,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at -80 -32.5 90)
+			(at -5 -32.5 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -5901,7 +5902,7 @@
 			)
 		)
 		(property "Description" ""
-			(at -80 -32.5 90)
+			(at -5 -32.5 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -6344,6 +6345,7 @@
 				(font
 					(size 2.5 2.5)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" ""
@@ -11260,6 +11262,7 @@
 				(font
 					(size 2.5 2.5)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" ""
@@ -11864,6 +11867,7 @@
 				(font
 					(size 2.5 2.5)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" ""
@@ -14136,6 +14140,313 @@
 			)
 		)
 		(symbol "GOST_SA_Button_NC_NO_Emergency_1_1"
+			(pin passive line
+				(at 0 10 0)
+				(length 2)
+				(name ""
+					(effects
+						(font
+							(size 1.8 1.8)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.8 1.8)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 2)
+				(name ""
+					(effects
+						(font
+							(size 1.8 1.8)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.8 1.8)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 10 10 180)
+				(length 2)
+				(name ""
+					(effects
+						(font
+							(size 1.8 1.8)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.8 1.8)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 10 0 180)
+				(length 2)
+				(name ""
+					(effects
+						(font
+							(size 1.8 1.8)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.8 1.8)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "GOST_SA_Switch_NC_NO_Lamp"
+		(pin_numbers
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "SA"
+			(at 4.5 16.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 2.5 2.5)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "GOST_SA_Switch_NC_NO_Lamp_0_1"
+			(polyline
+				(pts
+					(xy 2 14.5) (xy 2 13.5) (xy 8 13.5) (xy 8 12.5)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2 10) (xy 2 5.5)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2 5.5) (xy 8.5 9.5)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2 0) (xy 7 3)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.9 -2.9) (xy 7.1 -7.1)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5 10.5) (xy 5 10.5)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5 10.5) (xy 3.5 11.5) (xy 5 12.5) (xy 5 13.5)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 5 -5)
+				(radius 3)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.1 -2.9) (xy 2.9 -7.1)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8 10) (xy 8 5.5)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "GOST_SA_Switch_NC_NO_Lamp_1_1"
+			(polyline
+				(pts
+					(xy 5 10.5) (xy 5 2)
+				)
+				(stroke
+					(width 0)
+					(type dash)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at 0 -5 0)
+				(length 2)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 10 -5 180)
+				(length 2)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin passive line
 				(at 0 10 0)
 				(length 2)
@@ -47492,7 +47803,7 @@
 					)
 				)
 			)
-			(text "Общий"
+			(text "+24V"
 				(at 205 -10 0)
 				(effects
 					(font
@@ -47620,7 +47931,7 @@
 					)
 				)
 			)
-			(text "GND"
+			(text "VDD"
 				(at 222.5 -10 0)
 				(effects
 					(font
